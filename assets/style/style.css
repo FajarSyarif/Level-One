@@ -4,6 +4,9 @@ body {
   background-image: url(../images/Background.jpg);
 }
 
+.atas {
+  padding-top: 12rem;
+}
 .main {
   padding-top: 13rem;
 }
@@ -65,5 +68,6 @@ footer {
     font-size: 1rem;
   }
 }
+
 
 
