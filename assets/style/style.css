@@ -47,16 +47,12 @@ footer {
 /* breakpoint */
 
 @media screen and (max-width: 1024px) {
-  .headline main {
+  .main {
     font-size: 1.8rem;
   }
 
   .subheadline {
     font-size: 2rem;
-  }
-
-  .img {
-    width: 20rem;
   }
 }
 
@@ -69,4 +65,5 @@ footer {
     font-size: 1rem;
   }
 }
+
 
