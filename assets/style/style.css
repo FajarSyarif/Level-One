@@ -4,6 +4,10 @@ body {
   background-image: url(../images/Background.jpg);
 }
 
+.main {
+  padding-top: 13rem;
+}
+
 .jumbotron-re {
   font-size: 20px;
   padding: 60px;
@@ -20,7 +24,6 @@ body {
 }
 
 .headline {
-  padding-top: 6rem;
   font-size: 3rem;
 }
 
@@ -44,14 +47,12 @@ footer {
 /* breakpoint */
 
 @media screen and (max-width: 1024px) {
-  .headline {
+  .headline main {
     font-size: 1.8rem;
   }
+
   .subheadline {
     font-size: 1rem;
   }
 
-  .img {
-    width: 20rem;
-  }
 }
