@@ -48,7 +48,24 @@ footer {
 }
 
 /* breakpoint */
+@media screen and (max-width: 1024px) {
+  .main {
+    font-size: 1.8rem;
+  }
 
+  .subheadline {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .main {
+    font-size: 1.2rem;
+  }
+
+  .subheadline {
+    font-size: 1rem;
+  }
 }
 
 
